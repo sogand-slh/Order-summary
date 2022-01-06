@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    // background-color: hsl(225, 100%, 94%);
+  }
+  .card {
+    display: flex;
+    margin: 5% auto;
+    border-radius: 20px;
+    width: 18rem;
+    .card-img-top {
+    }
+    .card-body {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      h4 {
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+      }
+      .card-text {
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+      }
+      .annual-plan {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: hsl(224, 65%, 97%);
+        border-radius: 5px;
+        box-sizing: border-box;
+        height: 60px;
+        font-size: 12px;
+        align-content: center;
+        align-items: center;
+        line-height: 0.5rem;
+        a {
+          color: #4439a1;
+          // text-decoration: none;
+          font-weight: 900;
+        }
+
+        .annual-plan-title {
+          color: hsl(224, 23%, 55%);
+          flex-direction: column;
+          padding-top: 5%;
+          margin-left: -25px;
+          font-weight: 600;
+        }
+      }
+      .btn-proc {
+        border: none;
+        color: white;
+        height: 35px;
+        font-size: 15px;
+        background-color: #382ae1;
+        border-radius: 5px;
+      }
+    }
+  }
+  .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .cancel-btn a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .card {
+    display: flex;
+    margin: 5% auto;
+    border-radius: 20px;
+    width: 18rem;
+    .card-img-top {
+    }
+    .card-body {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      h4 {
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+      }
+      .card-text {
+        text-align: center;
+        color: hsl(224, 23%, 55%);
+      }
+      .annual-plan {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: hsl(224, 65%, 97%);
+        border-radius: 5px;
+        box-sizing: border-box;
+        height: 60px;
+        font-size: 12px;
+        align-content: center;
+        align-items: center;
+        line-height: 0.5rem;
+        a {
+          color: #4439a1;
+          // text-decoration: none;
+          font-weight: 900;
+        }
+
+        .annual-plan-title {
+          color: hsl(224, 23%, 55%);
+          flex-direction: column;
+          padding-top: 5%;
+          margin-left: -25px;
+          font-weight: 600;
+        }
+      }
+      .btn-proc {
+        border: none;
+        color: white;
+        height: 35px;
+        font-size: 15px;
+        background-color: #382ae1;
+        border-radius: 5px;
+      }
+    }
+  }
+  .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .cancel-btn a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+}
